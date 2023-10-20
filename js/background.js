@@ -33,8 +33,8 @@ let dn=document.querySelector('.login-container form button');
 
 dn.onclick=()=>{
     if(pass.value=="23246"){
-        // alert("Đăng nhập thành công!!!");
-        window.open('./intro.html')
+        alert("Đăng nhập thành công!!!");
+        window.open('./intro.html');
     }else{
         alert("Sai rồi nhé em thử lại đi nào");
     }

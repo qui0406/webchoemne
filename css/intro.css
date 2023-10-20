@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 body{
-    background-image: url(/assets/imgs/hinh-nen-tinh-yeu-lang-man-de-thuong.jpg);
+    background-image: url("./assets/imgs/hinh-nen-tinh-yeu-lang-man-de-thuong.jpg");
     background-repeat: no-repeat;
     background-size: cover, contain;
 
