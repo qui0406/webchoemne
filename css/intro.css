@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    background-image: url(/assets/imgs/hinh-nen-tinh-yeu-lang-man-de-thuong.jpg);
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+  }
+  
+  #background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 0.2;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    /* Định dạng nội dung trang web của bạn ở đây */
+  }
+  
+.intro{
+    padding-top: 3rem;
+    text-align: center;
+    color: rgb(255, 20, 118);
+}
+.box1{
+    position: absolute;
+    border-radius: 10px;
+    width: 40vw;
+    height: 150px;
+    top:30%;
+    left: 5%;
+    border: 2px solid #ea8d1b;
+    background-color: rgb(249, 239, 247);
+
+    cursor: pointer;
+}
+.box1 h2{
+    text-align: center;
+    padding-top: 1.5rem;
+    color: rgb(191, 65, 86);
+}
+.box2{
+    position: absolute;
+    border-radius: 10px;
+    width:40vw;
+    height: 150px;
+    border: 2px solid #da1c3f;
+    top: 30%;
+    right: 5%;
+    cursor: pointer;
+    background-color: rgb(249, 239, 247);
+}
+.box2 h2{
+    text-align: center;
+    padding-top: 1.5rem;
+    color: rgb(191, 65, 86);
+}
+
+.response{
+    display: none;
+    border: 3px solid rgb(227, 142, 156);
+    width: 50vw;
+    border-radius: 10px;
+    padding: 2rem;
+    cursor: pointer;
+   background-color: rgb(206, 14, 119);
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    animation: fadein 1s ;
+}
+.response h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+button.next{
+    padding: 1.5rem;
+    margin-top: 900px;
+    margin-left: 30%;
+    background-color: rgb(219, 202, 95);
+    border-radius: 15px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+button.next h3{
+    color: rgb(229, 24, 154);
+    font-weight: 600;
+}

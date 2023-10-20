@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    opacity: 1;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    /* Định dạng nội dung trang web của bạn ở đây */
+  }
+  
+
+body{
+    background-color: rgb(235, 202, 224);
+    font-family: cursive;
+    color: rgb(225, 24, 158);
+}
+
+ul.nav{
+    background-color: rgb(228, 79, 128);
+    height: 50px;
+}
+ul.nav > li{
+    list-style-type: none;
+    
+}
+ul.nav > li >a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem;
+    display: inline-block;
+   
+}
+.flex{
+    display: flex;
+}
+h1{
+    text-align: center;
+    color: red;
+    margin-top: 2rem;
+}
+ul>li:nth-child(2){
+    background-color: rgb(229, 30, 113);;
+}
+.box{
+    width: 70%;
+    border: 3px solid #e96767;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1rem;
+    background-color: bisque;
+}
+.box_fake{
+    width: 30%;
+}
